@@ -3,7 +3,7 @@
 - New QBCore
 
 ## Video Showcase
-- https://youtu.be/NE3P-48jLfY
+- https://www.youtube.com/watch?v=Sl6V-C64ww0
 ## Discord
 - https://discord.gg/nko
 
@@ -16,7 +16,7 @@
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
-- [qb-target](https://github.com/qbcore-framework/qb-target
+- [qb-target](https://github.com/qbcore-framework/qb-target)
 
 ### Installation
 - Download the script and put it in the `[qb]` directory.
