@@ -1,5 +1,5 @@
 # nkoLean
-- Advanced Drinking `Lean` [QBCORE]
+- Advanced Drinking Lean [QBCORE]
 - New QBCore
 
 ## Video Showcase
