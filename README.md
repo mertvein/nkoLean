@@ -13,6 +13,7 @@
 - Easy editable language file
 - Low Resmon
 - Crafting new items ( like jolly, ice )
+- Lean item gives you effects like drunk
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
