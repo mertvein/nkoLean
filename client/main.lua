@@ -1,14 +1,12 @@
 local QBCore = exports["qb-core"]:GetCoreObject()
-local pedSpawned = false
 local SellerPed = {}
-
-RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
-    PlayerData = QBCore.Functions.GetPlayerData()
-    createSeller()
-end)
 
 RegisterNetEvent('QBCore:Client:OnPlayerUnload', function()
     PlayerData = nil
+end)
+
+RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
+    PlayerData = QBCore.Functions.GetPlayerData()
 end)
 
 -- Functions
@@ -20,9 +18,7 @@ local function loadAnimDict(dict)
     end
 end
 
-local function createSeller()
-    if pedSpawned then return end
-
+CreateThread(function()
     for k, v in pairs(Config.Seller) do
         if not SellerPed[k] then SellerPed[k] = {} end
         local current = v["ped"]
@@ -48,10 +44,7 @@ local function createSeller()
             distance = 1.2
         })
     end
-
-    pedSpawned = true
-    Wait(2500)
-end
+end)
 
 RegisterNetEvent('nkoLean:menu', function()
     local menu = {
@@ -105,24 +98,4 @@ end)
 
 RegisterNetEvent('nkoLean:takeItem', function(item)
     TriggerServerEvent('nkoLean:serverTake', item)
-end)
-
-local function deleteSeller()
-    if not pedSpawned then return end
-    for _, v in pairs (ShopPed) do
-        DeletePed(v)
-    end
-    pedSpawned = false
-end
-
--- Events
-AddEventHandler('onResourceStart', function(resourceName)
-    if GetCurrentResourceName() == resourceName then
-        createSeller()
-    end
-end)
-
-AddEventHandler('onResourceStop', function(resourceName)
-    if GetCurrentResourceName() == resourceName then return end
-    deleteSeller()
 end)
