@@ -38,9 +38,3 @@ ensure nkoLean
 ['icedspritedbowl'] 		 = {['name'] = 'icedspritedbowl', 	        ['label'] = 'Cold Sprite', 				    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'icedspritedbowl.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Sprite like bzzz..'},
 ['ibuprofenedbowl'] 		 = {['name'] = 'ibuprofenedbowl', 		    ['label'] = 'Red Drink', 				    ['weight'] = 250, 		['type'] = 'item', 		['image'] = 'ibuprofenedbowl.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Drink, smells like syrup..'},
 ```
-
-## Image Showcase
-![image](https://cdn.discordapp.com/attachments/1070377961158623262/1076180743048409199/image.png)
-![image](https://cdn.discordapp.com/attachments/1070377961158623262/1076180875227701330/image.png)
-
-
