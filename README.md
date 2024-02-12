@@ -2,8 +2,10 @@
 - Advanced Drinking Lean [QBCORE]
 - New QBCore
 
-## Video Showcase
-- https://youtu.be/Sl6V-C64ww0
+## Showcase
+![image](https://github.com/mertvein/nkoLean/assets/79944577/d1581452-e0d9-42db-a8ca-97a54ad10502)
+![image](https://github.com/mertvein/nkoLean/assets/79944577/8035f97e-ebdd-4676-aed4-8c71384fdd03)
+
 ## Discord
 - https://discord.gg/nko
 
