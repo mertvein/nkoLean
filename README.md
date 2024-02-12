@@ -7,7 +7,7 @@
 ![image](https://github.com/mertvein/nkoLean/assets/79944577/8035f97e-ebdd-4676-aed4-8c71384fdd03)
 
 ## Discord
-- https://discord.gg/nko
+- https://discord.gg/mert
 
 ## Features
 - Script using full qb-target
